@@ -1,0 +1,30 @@
+
+//  Você deve portar o div que foi realizado no exercicio
+//  1c-Div para dentro do arquivo div.vm, você terá que 
+//  ajustar algumas cosas. Use a funcao de mult como exemplo 
+
+
+function div 3
+  push argument 0
+  pop local 0
+  push argument 1
+  pop local 1
+  label Maior
+  push local 0
+  push local 1
+  sub
+  pop local 0
+  push local 0
+  push local 1
+  gt
+  push local 2
+  push constant 1
+  add
+  pop local 2
+  if-goto Maior
+  push local 2
+  push constant 1
+  add
+  pop temp 1
+   
+label end

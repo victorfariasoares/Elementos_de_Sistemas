@@ -1,0 +1,22 @@
+function pow 3
+    push argument 0
+    pop local 0
+    push local 0
+    pop local 2
+    push argument 1
+    pop local 1
+    label ELEVAR
+    push local 2
+    push local 0
+    call mult 2
+    pop local 2
+    push local 1
+    push constant 1
+    sub
+    pop local 1
+    push local 1
+    push constant 1
+    gt
+    if-goto ELEVAR
+    push local 2
+    pop temp 2
