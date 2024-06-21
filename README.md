@@ -1,13 +1,12 @@
-
-```
-export SIM=ghdl
-pip3 install -r requirements.txt
-cd b_logComb
-SIM=ghdl pytest -s
-```
-
-Agora vai abrir uma pagina para voce autenticar via github e vai gerar um 
-token que voce deve colar no terminal
+## Atividades Práticas Supervisionadas desenvolvidas ao longo do semestre do curso de Elementos de Sistemas
+<br>
+Integrantes:<br>
+- Cauê Pileckas D'Agostinho <br>
+- Gustavo de Lima Mota <br>
+- Vinicius Cezimbra Miranda <br>
+- Victor Faria Soares <br>
+- Vinicius Grecco<br>
+- Matheus Gimenes de Almeida
 
 ## Rodando apenas um teste
 
